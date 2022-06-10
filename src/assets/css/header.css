@@ -1,0 +1,83 @@
+.logo_simarro {
+    display: block;
+    width: 170px;
+    height: 25px;
+    margin: auto;
+}
+
+.user_img {
+    display: flex;
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    padding: 0.6%;
+    border-bottom: 0.5px #d7d7d7 solid;
+    background-color: #f5f5f5 !important;
+}
+
+.img__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.simarro {
+    margin-left: 1%;
+}
+
+div.user {
+    margin-right: 1%;
+}
+
+div.toolbar-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 25%;
+    border: none;
+}
+
+div.header__menu > .header__menu__content {
+    display: inline-block;
+    align-items: center;
+    width: 120px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 99px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.header__menu__content > a {
+    color: black;
+    text-decoration: none;
+}
+
+.logout {
+    color: red;
+}
+
+li > a {
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a > span {
+    margin-left: 10px;
+}

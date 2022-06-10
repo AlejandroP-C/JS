@@ -1,0 +1,155 @@
+/*[RESTYLE]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    justify-content: center;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.mat-form-field {
+    display: block;
+    margin: 4.5em;
+}
+
+/*---------------------------------------------*/
+
+
+iframe {
+    border: none !important;
+}
+
+
+/*[ Contact 2 ]*/
+.bg-contact2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-contact2 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrap-contact2 {
+    width: 50rem;
+    height: fit-content;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 70px 53px 30px 53px;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 1rem;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    transform: scale(0.85);
+}
+
+/*[ Form title ]*/
+
+.contact2-form {
+    width: 100%;
+}
+
+.contact2-form-title {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+/*[ Button ]*/
+
+.container-contact2-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: scale(1);
+}
+
+.contact2-form-btn {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #202231;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: width .5s;
+    border-radius: .5s;
+}
+
+.contact2-form-btn * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s;
+}
+
+.text {
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.fa-check {
+    opacity: 0;
+}
+
+.contact2-form-btn:focus {
+    width: 40px;
+    background-color: #44c08a;
+    border-radius: 50%;
+}
+
+.contact2-form-btn:focus .text {
+    opacity: 0;
+}
+
+.contact2-form-btn:focus .fa-check {
+    opacity: 1;
+    transition-delay: .5s;
+}

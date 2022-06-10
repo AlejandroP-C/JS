@@ -1,0 +1,95 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center;
+    margin: 5rem;
+    margin-top: 1% !important;
+}
+
+
+.app-item-detail {
+    flex: 1;
+    max-width: 781px;
+    max-height: 319px;
+    margin: 50px;
+}
+
+.flag {
+    display: block;
+    float: inline-start;
+    width: 44px;
+    height: auto;
+    border: 1px solid black;
+}
+
+mat-card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.c-statistics {
+    color: #797778;
+    font-size: 11px;
+    line-height: 1;
+    border: 1px solid #bcbabd;
+    border-radius: 5px;
+}
+
+.c-statistics__content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.c-statistics__background,
+.c-statistics__rider,
+.c-statistics__time,
+.c-statistics__title {
+    flex: 1 100%;
+    text-align: center;
+    color: #7f7f7f;
+}
+
+.c-statistics__rider,
+.c-statistics__title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.c-statistics__time {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.c-statistics__rider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.c-statistics__rider-name {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.c-statistics__rider-scuderia {
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
+
+.c-statistics__rider-year {
+    font-size: 20px;
+}
+
+mat-card-subtitle {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 400;
+}
